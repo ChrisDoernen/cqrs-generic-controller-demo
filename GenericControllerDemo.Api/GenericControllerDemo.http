@@ -1,0 +1,6 @@
+@GenericControllerDemo_HostAddress = http://localhost:8080
+
+POST {{GenericControllerDemo_HostAddress}}/requests/Ping
+Accept: application/json
+
+{"Message":{"Foo":"ping"}}
